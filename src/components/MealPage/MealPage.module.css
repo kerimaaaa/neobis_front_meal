@@ -10,7 +10,7 @@ font-family: 'Cardo', serif;
 }
 .meal_ingredients h2{
     color: #db8206;
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
 }
 .meal_ingredients p{
@@ -18,8 +18,12 @@ font-family: 'Cardo', serif;
     text-align: center;
 }
 .meal_ingredients h3{
+   margin-left: 50px;
     margin-top: 10px;
     
+}
+.meal_ingredients ul{
+    margin-left: 50px;
 }
 .meal_ingredients li{
     list-style-type: none;
@@ -33,7 +37,7 @@ font-family: 'Cardo', serif;
 }
 .meal_instructions{
 text-align: center;
-margin: 10px 0; 
+margin: 30px 0; 
 font-size: 30px;
 }
 .meal_instructions_details{
