@@ -22,7 +22,7 @@ const SearchPage = () => {
     };
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log('search on "enter" key');
+        console.log('search');
     };
     return (
         <div className={styles.search}>
@@ -45,7 +45,7 @@ const SearchPage = () => {
                         <li key={result.idMeal} className={styles.search_li}>
                             <Link to={`/meal/${result.idMeal}`}>
                                 <div className={styles.search_result_sub_container} > 
-                                    <div className="flex">
+                                    <div>
                                         <img
                                             className={styles.search_img}
                                             src={result.strMealThumb}
