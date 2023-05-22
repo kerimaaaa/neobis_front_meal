@@ -1,0 +1,12 @@
+*{ 
+  font-family: 'Cardo', serif;
+  }
+.App_header{
+  background-color: #db8206;
+  height: 100px;
+}
+.App_title{
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
